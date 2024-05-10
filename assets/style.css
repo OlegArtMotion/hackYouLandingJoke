@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: !!!! //WOWO///;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
@@ -16,6 +16,13 @@ body {
   padding-right: 0;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ff0000;
+  margin: 20px;
+}
 .paragraphContainer {
   display: flex;
   justify-content: center;
@@ -59,8 +66,8 @@ p {
 }
 
 .logo {
-  margin: 20px;
-  height: 300px;
+  margin: 100px 20px 40px 20px;
+  height: 150px;
   width: 450px;
 }
 .btnContainer {
@@ -86,4 +93,11 @@ p {
   background-color: rgb(255, 46, 46);
   box-shadow: 0px 0px 19px 14px rgba(255, 245, 133, 0.9);
   cursor: pointer;
+}
+
+#oleg {
+  height: 100px;
+  width: 250px;
+
+  margin: 0 0 60px;
 }
