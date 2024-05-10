@@ -79,13 +79,13 @@ bodymovin.loadAnimation({
 });
 
 
-
 const changeButtonText = () => {
     document.querySelector("h1").innerText = "Sorry dude...";
     document.querySelector("p").innerHTML = "You have been hacked!<br> ZU HA HA HA ";
     document.querySelector("p").style.fontSize = "100px";
     document.querySelector("p").style.margin = "20px";
     document.querySelector("p").style.color = "#00ff00";
+    document.querySelector("p").style.lineHeight = "1.2";
     document.getElementById("body").style.backgroundColor = "black";
     document.getElementById("button").innerHTML = "Pay 1 BTC to unlock";
     document.getElementById("button").style.fontSize = "20px";
